@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+<body>
+
+    <div id="content">
+        <div class="container">
+            <h1>Todo</h1>
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="six offset-by-three columns">
+                        <form action="#" id="form">
+                            <label for="todo"></label>
+                            <textarea id="todo" class="u-full-width"></textarea>
+                            <input type="submit" class="btn u-full-width btn-main" value="Save todo">
+                        </form>
+                    </div>
+                    <!--.twelve-->
+                </div>
+                <div class="twelve columns">
+                    <h2>My todos</h2>
+                    <div id="todo-list"></div>
+                </div> <!--.twelve-->
+            </div>
+        </div>
+    </div> <!--#contenido-->
+
+    <script src="js/app.js"></script>
+</body>
+</html>
