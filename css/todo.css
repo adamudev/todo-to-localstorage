@@ -13,3 +13,9 @@ h2 {
   color: red;
   font-weight: bold;
 }
+
+.todolist {
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
